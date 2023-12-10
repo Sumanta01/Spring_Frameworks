@@ -1,0 +1,56 @@
+package com.sumanta;
+
+
+import java.util.List;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.orm.hibernate5.HibernateTemplate;
+
+import com.sumanta.dao.StudentDao;
+
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        //System.out.println( "Hello World!" );
+    	ApplicationContext context=new ClassPathXmlApplicationContext("com/sumanta/config.xml");
+    	
+    	StudentDao dao=context.getBean("stDao",StudentDao.class);
+    	
+    	Student student=new Student();
+    	
+//    	student.setAddress("Korea");
+//    	student.setName("Sean");
+//    	student.setId(4);
+    	
+    	
+//    	int i=dao.saveStudent(student);
+//    	System.out.println("Insert Successfully "+i);
+    	
+    	
+//    	Student st=dao.getStudent(2);
+//    	System.out.println(st);
+    	
+    	dao.deleteStudent(4);
+    	System.out.println("Deleted Successfully !");
+    	
+    	List<Student>list=dao.getAllStudents();
+    	for(Student st:list) {
+    		System.out.println(st);
+    	}
+    	
+    	
+//    	dao.updateStudent(student);
+//    	System.out.println("Update Successfully !");
+    	
+    	
+        
+        
+    }
+}

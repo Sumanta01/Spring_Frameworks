@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- bean definitions here -->
+	<bean name="St" class="com.sumanta.collection.Student">
+		<property name="name" value="Sumanta"></property>
+
+		<property name="address">
+			<list>
+				<value>Bhubaneswar</value>
+				<value>Cuttack</value>
+				<value>Puri</value>
+			</list>
+		</property>
+
+		<property name="phone">
+			<set>
+				<value>8685676464</value>
+				<value>4434767867</value>
+			</set>
+
+		</property>
+		<property name="course">
+			<map>
+				<entry key="C++" value=" 2-month"></entry>
+				<entry key="Java" value=" 3-month"></entry>
+			</map>
+
+
+		</property>
+
+	</bean>
+
+</beans>

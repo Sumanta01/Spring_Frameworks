@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- bean definitions here -->
+
+	<bean name="address" class="com.sumanta.autowiring.xml.Address">
+		<property name="city" value="Bhubaneswar">
+		</property>
+		<property name="state" value="Odisha"></property>
+
+	</bean>
+	<bean name="add2" class="com.sumanta.autowiring.xml.Address">
+		<property name="city" value="Noida">
+		</property>
+		<property name="state" value="UP"></property>
+
+	</bean>
+	<bean name="add3" class="com.sumanta.autowiring.xml.Address">
+		<property name="city" value="NCR Delhi">
+		</property>
+		<property name="state" value="Delhi"></property>
+
+	</bean>
+	<bean name="add4" class="com.sumanta.autowiring.xml.Address" primary="true">
+		<property name="city" value="Banglore">
+		</property>
+		<property name="state" value="Krnatak"></property>
+
+	</bean>
+
+	<!-- bean name="St" class="com.sumanta.autowiring.xml.Student" autowire="byName"> 
+		</bean -->
+
+	<bean name="St" class="com.sumanta.autowiring.xml.Student"
+		autowire="byType">
+
+
+	</bean>
+	
+	<!--bean name="St" class="com.sumanta.autowiring.xml.Student"
+		autowire="constructor">
+
+
+	</bean -->
+	
+
+
+</beans>

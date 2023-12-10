@@ -1,0 +1,5 @@
+package com.sumanta.service;
+
+public class UserService {
+
+}

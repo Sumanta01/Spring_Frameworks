@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- bean definitions here -->
+	<bean name="St1" class="com.sumanta.collections.Student">
+		<property name="name" value="Smith">
+		</property>
+		<property name="address">
+
+			<list>
+				<value>"Australia"</value>
+				<value>"UK"</value>
+			</list>
+		</property>
+
+		<property name="phno">
+			<set>
+				<value>154</value>
+				<value>765</value>
+
+			</set>
+
+		</property>
+		<property name="course">
+			<map>
+				<entry key="Java" value="2-month"></entry>
+				<entry key="Python" value="1.5-month"></entry>
+			</map>
+
+		</property>
+
+
+
+
+	</bean>
+
+</beans>

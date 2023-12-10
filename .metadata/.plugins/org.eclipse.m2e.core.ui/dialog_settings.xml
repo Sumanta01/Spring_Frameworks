@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\KIIT\Documents\workspace-spring-tool-suite-4-4.20.0.RELEASE\Spring_MVC_2\src\main\webapp\WEB-INF\view\home.jsp"/>
+			<item value="C:\Users\KIIT\Documents\workspace-spring-tool-suite-4-4.20.0.RELEASE\Spring_JDBC_Config\src\main\java\com\sumanta\javaconfig\App.java"/>
+			<item value="C:\Users\KIIT\Documents\workspace-spring-tool-suite-4-4.20.0.RELEASE\Autowired\src\main\java\com\sumanta\javaConfig\config.java"/>
+			<item value="C:\Users\KIIT\Documents\workspace-spring-tool-suite-4-4.20.0.RELEASE\springLifeCycle\src\main\java\com\sumanta\springLifeCycle\anotation\config.xml"/>
+			<item value="C:\Users\KIIT\Documents\workspace-spring-tool-suite-4-4.20.0.RELEASE\Setter_Injection\src\main\java\com\sumanta\collection\App.java"/>
+			<item value="C:\Users\KIIT\Documents\workspace-spring-tool-suite-4-4.20.0.RELEASE"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.sumanta.Spring_mvc_RegstForm"/>
+			<item value="com.sumanta.Spring_MVC_RegstForm"/>
+			<item value="com.sumanta"/>
+			<item value="com.sumanta.springLifeCycle"/>
+			<item value="com.sumanta.Demo"/>
+		</list>
+		<list key="groupId">
+			<item value="com.sumanta"/>
+		</list>
+		<list key="artifactId">
+			<item value="Spring_mvc_RegstForm"/>
+			<item value="Spring_MVC_RegstForm"/>
+			<item value="DockerProject"/>
+			<item value="Spring_MVC_2"/>
+			<item value="Spring_ORM_HIB"/>
+			<item value="Spring_JDBC_Config"/>
+			<item value="Autowired"/>
+			<item value="springLifeCycle"/>
+			<item value="Spring_lifecycle"/>
+			<item value="Constructor_Injection"/>
+			<item value="Setter_Injection"/>
+			<item value="Demo_Spring_Project"/>
+			<item value="Demo"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

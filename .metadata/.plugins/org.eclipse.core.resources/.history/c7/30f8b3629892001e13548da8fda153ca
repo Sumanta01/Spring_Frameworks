@@ -1,0 +1,32 @@
+package com.example;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+
+import com.example.entity.Student;
+import com.example.repository.StudentRepo;
+
+@SpringBootApplication
+public class SpringBootDataJpaApplication {
+
+	public static void main(String[] args) {
+		ApplicationContext context=SpringApplication.run(SpringBootDataJpaApplication.class, args);
+		
+		StudentRepo studentRepo=context.getBean(StudentRepo.class);
+		System.out.println(studentRepo);
+		
+		Student student=new Student();
+		student.setName("Reck");
+		student.setAddress("USA");
+		
+		studentRepo.save(student);
+		
+		
+		
+		
+		
+		
+	}
+
+}

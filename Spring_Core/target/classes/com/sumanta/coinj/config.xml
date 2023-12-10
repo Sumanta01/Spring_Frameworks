@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- bean definitions here -->
+
+	<bean class="com.sumanta.coinj.Certificate" name="Ce">
+		<constructor-arg value="2170199"></constructor-arg>
+		<constructor-arg value="Java">
+		</constructor-arg>
+
+	</bean>
+	<bean class="com.sumanta.coinj.Student" name="St1">
+		<constructor-arg value="199" type="int">
+		</constructor-arg>
+		<constructor-arg value="Rishi"></constructor-arg>
+		<constructor-arg value="India"></constructor-arg>
+		<constructor-arg>
+			<list>
+				<value>Java</value>
+				<value>Python</value>
+				<value>C++</value>
+			</list>
+
+		</constructor-arg>
+		<constructor-arg ref="Ce"></constructor-arg>
+
+	</bean>
+
+</beans>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;config.xml&apos; to &apos;Autowired/src/main/java/com.sumanta.autowired.xml&apos;&#x0D;&#x0A;- Original project: &apos;springLifeCycle&apos;&#x0D;&#x0A;- Destination element: &apos;Autowired/src/main/java/com.sumanta.autowired.xml&apos;&#x0D;&#x0A;- Original element: &apos;config.xml&apos;" description="Copy file" destination="=Autowired/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.sumanta.autowired.xml" element1="src/main/java/com/sumanta/springLifeCycle/anotation/config.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1699392019327" units="0" version="1.0"/>
+</session>
