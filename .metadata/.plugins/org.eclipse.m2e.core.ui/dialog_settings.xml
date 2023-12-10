@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\KIIT\Documents\Spring_Frameworks\Spring_Boot_Security\src\main\java\com\sumanta\config\SecurityConfig.java"/>
 			<item value="C:\Users\KIIT\Documents\workspace-spring-tool-suite-4-4.20.0.RELEASE\Spring_MVC_2\src\main\webapp\WEB-INF\view\home.jsp"/>
 			<item value="C:\Users\KIIT\Documents\workspace-spring-tool-suite-4-4.20.0.RELEASE\Spring_JDBC_Config\src\main\java\com\sumanta\javaconfig\App.java"/>
 			<item value="C:\Users\KIIT\Documents\workspace-spring-tool-suite-4-4.20.0.RELEASE\Autowired\src\main\java\com\sumanta\javaConfig\config.java"/>
@@ -31,9 +32,9 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.sumanta"/>
 			<item value="com.sumanta.Spring_mvc_RegstForm"/>
 			<item value="com.sumanta.Spring_MVC_RegstForm"/>
-			<item value="com.sumanta"/>
 			<item value="com.sumanta.springLifeCycle"/>
 			<item value="com.sumanta.Demo"/>
 		</list>
@@ -41,6 +42,7 @@
 			<item value="com.sumanta"/>
 		</list>
 		<list key="artifactId">
+			<item value="Json_Test_Selenium"/>
 			<item value="Spring_mvc_RegstForm"/>
 			<item value="Spring_MVC_RegstForm"/>
 			<item value="DockerProject"/>
